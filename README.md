@@ -11,10 +11,11 @@ Customer -->
     Each customer has one or more Orders --> 
         Each order contains one or more Items to be serviced --> 
             Each service contains details of what needs to be done
+A shopping cart is treated as just an Unconfirmed order, with only one possible Unconfirmed order per Customer, as this simplifies the overall design greatly.  
 
 The server exposes a REST API to the client -- the API definition may not be strictly following all conventions at the moment.
 
-Web UI uses the Google Material UI toolkit for a standardized look and feel
+Web UI uses the Google Material UI toolkit for a standardized look and feel.
 
-A number of improvements are possible to the code quality. 
+A number of improvements are possible to the code quality.
 But the key focus was to demonstrate how a template approach can be taken for multiple services.
